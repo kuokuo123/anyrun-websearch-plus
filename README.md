@@ -10,6 +10,8 @@ Enter your search term with a prefix to call for the search engine. If more than
 Default config
 
 ```ron
+// <Anyrun config dir>/websearch_plus.ron
+
 Config(
 
   // The prefix below calls for websearch; a secondary prefix set in the Custom engine block calls for a specified search engine.
