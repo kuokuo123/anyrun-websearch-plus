@@ -13,19 +13,22 @@ Default config
 Config(
 
   // The prefix below calls for websearch; a secondary prefix set in the Custom engine block calls for a specified search engine.
-  // for example, in this config "?d Tux the penguin" calls DuckDuckGo to search for Tux the penguin, "?awiki" calls Archwiki, "?" calls Google.
+  // for example, in this config "?d Tux the penguin" calls DuckDuckGo to search for Tux the penguin, "?awiki " calls Archwiki, "?" calls Google.
+
   prefix: "?",
 
   // Options: Google, Custom
-  // The google engine doesn't have a secondary prefix. If you need a prefix for google search, set a customized google engine and remove the default one.
+  // The default google engine doesn't have a secondary prefix. If you need a prefix for google search, set a customized google engine and remove the default one.
   // NOTE: `{}` is replaced by the search query and `https://` is automatically added in front.
+
   engines: [
 
     // Example config:
+
     Custom(
       name: "DuckDuckGo",
       url: "duckduckgo.com/?q={}",
-      secondary_prefix: "d",
+      secondary_prefix: "d ",
     ),
 
     Custom(
