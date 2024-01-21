@@ -3,7 +3,7 @@ An anyrun plugin to call for web search through customized search engines. Diffe
 
 ## Usage
 
-Enter your search-term with a prefix to call for search engine. If more than two search engines have the same prefix, select the search action you want with arrow keys.
+Enter your search term with a prefix to call for the search engine. If more than two search engines have the same prefix, select the search action you want with arrow keys.
 
 ## Configuration
 
