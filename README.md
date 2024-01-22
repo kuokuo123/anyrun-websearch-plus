@@ -1,5 +1,5 @@
 # Anyrun-Websearch-Plus
-An [anyrun](https://github.com/Kirottu/anyrun) plugin to search the web through customized search engines. Different from the original [ websearch ](https://github.com/Kirottu/anyrun/tree/master/plugins/websearch) plugin, this one allows for setting prefixes to call for a specified search engine.
+An [anyrun](https://github.com/Kirottu/anyrun) plugin to search the web through customized search engines. Different from the original [ websearch ](https://github.com/Kirottu/anyrun/tree/master/plugins/websearch) plugin, this modified version allows for setting prefixes to call for a specified search engine.
 
 ## Usage
 
