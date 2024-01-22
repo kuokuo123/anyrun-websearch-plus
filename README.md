@@ -1,5 +1,5 @@
 # Anyrun-Websearch-Plus
-An [anyrun](https://github.com/Kirottu/anyrun) plugin to call for web search through customized search engines. Different from the original [ websearch ](https://github.com/Kirottu/anyrun/tree/master/plugins/websearch) plugin, this one allows for setting prefixes to call for specified search engines.
+An [anyrun](https://github.com/Kirottu/anyrun) plugin to search the web through customized search engines. Different from the original [ websearch ](https://github.com/Kirottu/anyrun/tree/master/plugins/websearch) plugin, this one allows for setting prefixes to call for a specified search engine.
 
 ## Usage
 
@@ -16,8 +16,8 @@ An example config.
 
 Config(
 
-  // The prefix below calls for websearch; a secondary prefix set in the Custom engine block calls for a specified search engine.
-  // for example, in this config "?d Tux the penguin" calls DuckDuckGo to search for Tux the penguin, "?awiki " calls Archwiki, "?" calls Google.
+  // The main prefix calls for websearch; a secondary prefix set in the Custom engine block calls for a specified search engine.
+  // for example, in this config "?d Tux the penguin" calls DuckDuckGo to search for Tux the penguin, "?awiki " calls Archwiki, "?" calls Google. You can also depend wholely on secondary prefixes by setting the main prefix to "".
 
   prefix: "?",
 
